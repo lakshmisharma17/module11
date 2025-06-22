@@ -6,7 +6,7 @@ Module 11: Practica Application 2
 
 This project aims to understand the key factors that drive used car prices and build a predictive model to help used car dealerships make data-driven decisions on inventory acquisition and pricing strategies.
 
-Using a dataset of over 400,000 used car listings, we explore various vehicle characteristics and their impact on market value. The final outcome is a recommended pricing model that can assist in estimating the fair market value of used cars.
+Using a dataset of 426K used car listings, we explore various vehicle characteristics and their impact on market value. The final outcome is a recommended pricing model that can assist in estimating the fair market value of used cars.
 
 ## Business Objective
 
