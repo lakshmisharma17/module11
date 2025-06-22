@@ -41,7 +41,7 @@ The project followed a structured approach based on the CRISP-DM framework:
 
 1.  **Business Understanding:** Defined the problem from a data perspective: a supervised regression task to predict used car prices.
 2.  **Data Understanding:** Explored the dataset to understand its structure, contents, and identify initial quality issues (e.g., missing values, potential outliers).
-3.  **Data Preparation:** Cleaned the data by handling missing values, removing irrelevant features, encoding categorical variables into numerical format, splitting the data into training and testing sets, and scaling numerical features. Outliers in price and odometer were identified and removed to improve model robustness.
+3.  **Data Preparation:** Cleaned the data by handling missing values, removing irrelevant features, removing outliers, encoding categorical variables into numerical format, splitting the data into training and testing sets, and scaling numerical features. Outliers in price and odometer were identified and removed to improve model robustness.
 4.  **Modeling:** Built and evaluated several regression models to predict car prices:
     *   Linear Regression (as a baseline)
     *   Ridge Regression (with cross-validation)
@@ -66,8 +66,8 @@ A detailed visualization of the top influential features and their impact direct
 
 The **Ridge Regression model, optimized using GridSearchCV**, is recommended for predicting used car prices.
 
-*   **Performance:** This model achieved a Root Mean Squared Error (RMSE) of approximately **$9,963** on the test set.
-*   **Interpretation of RMSE:** This means that, on average, the model's price predictions are within approximately \$9,963 of the actual selling price of a used car.
+*   **Performance:** This model achieved a Root Mean Squared Error (RMSE) of approximately **$7441.82** on the test set.
+*   **Interpretation of RMSE:** This means that, on average, the model's price predictions are within approximately \$7441.82 of the actual selling price of a used car.
 *   **Benefits:** The Ridge model's regularization helps prevent overfitting, making it more reliable for predicting prices on new inventory.
 
 This model provides a data-backed estimate for pricing decisions, aiding in inventory acquisition and setting competitive asking prices.
